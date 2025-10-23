@@ -1,0 +1,4 @@
+22-10-2025 15:32:25 INFO  [br.un.tp.re.AuthResource] (executor-thread-4) Tentativa de login para usuário: leandra
+22-10-2025 15:32:25 WARN  [br.un.tp.re.AuthResource] (executor-thread-4) Falha de autenticação para usuário: leandra
+22-10-2025 15:32:32 INFO  [br.un.tp.re.AuthResource] (executor-thread-4) Tentativa de login para usuário: leandra
+22-10-2025 15:32:32 INFO  [br.un.tp.re.AuthResource] (executor-thread-4) Login bem-sucedido para usuário: leandra

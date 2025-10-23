@@ -1,0 +1,4 @@
+12-06-2025 14:30:09 INFO  [br.un.tp.re.PedidoResource] (executor-thread-1) Listando todos os pedidos (Adm): 8 encontrados
+12-06-2025 14:30:24 INFO  [br.un.tp.re.PedidoResource] (executor-thread-1) Pedido com id 3 deletado com sucesso
+12-06-2025 14:30:31 INFO  [br.un.tp.re.PedidoResource] (executor-thread-1) Pedido encontrado: 2
+12-06-2025 14:30:59 INFO  [br.un.tp.re.PedidoResource] (executor-thread-1) Pedido com id 1 atualizado com sucesso

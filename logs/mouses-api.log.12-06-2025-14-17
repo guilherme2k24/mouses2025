@@ -1,0 +1,8 @@
+12-06-2025 14:17:17 INFO  [io.quarkus] (Quarkus Main Thread) mouses2025 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.21.3) started in 1.288s. Listening on: http://localhost:8080
+12-06-2025 14:17:17 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+12-06-2025 14:17:17 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-validator, jdbc-postgresql, narayana-jta, rest, rest-jackson, security, smallrye-context-propagation, smallrye-jwt, smallrye-openapi, swagger-ui, vertx]
+12-06-2025 14:17:17 INFO  [io.qu.de.de.RuntimeUpdatesProcessor] (vert.x-worker-thread-2) Live reload total time: 2.290s 
+12-06-2025 14:17:17 INFO  [br.un.tp.re.MousesResource] (executor-thread-1) Mouse cadastrado com sucesso: 3
+12-06-2025 14:17:34 INFO  [br.un.tp.re.MousesResource] (executor-thread-1) Total de mouses listados: 3
+12-06-2025 14:17:46 INFO  [br.un.tp.re.MousesResource] (executor-thread-1) Mouse com id 3 deletado com sucesso
+12-06-2025 14:17:55 INFO  [br.un.tp.re.MousesResource] (executor-thread-1) Mouse encontrado: 1

@@ -1,0 +1,2 @@
+12-06-2025 13:18:43 INFO  [br.un.tp.re.AuthResource] (executor-thread-1) Tentativa de login para usuário: leandra
+12-06-2025 13:18:43 WARN  [br.un.tp.re.AuthResource] (executor-thread-1) Falha de autenticação para usuário: leandra

@@ -1,0 +1,8 @@
+12-06-2025 13:54:29 INFO  [io.quarkus] (Quarkus Main Thread) mouses2025 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.21.3) started in 1.019s. Listening on: http://localhost:8080
+12-06-2025 13:54:29 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+12-06-2025 13:54:29 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-validator, jdbc-postgresql, narayana-jta, rest, rest-jackson, security, smallrye-context-propagation, smallrye-jwt, smallrye-openapi, swagger-ui, vertx]
+12-06-2025 13:54:29 INFO  [io.qu.de.de.RuntimeUpdatesProcessor] (vert.x-worker-thread-17) Live reload total time: 1.201s 
+12-06-2025 13:54:29 INFO  [br.un.tp.re.ItemDoPedidoResource] (executor-thread-1) Solicitação para salvar novo item do pedido: br.unitins.tp1.dto.ItemDoPedidoRequestDTO@12cee476
+12-06-2025 13:54:29 INFO  [br.un.tp.re.ItemDoPedidoResource] (executor-thread-1) Item do pedido criado com ID: 6
+12-06-2025 13:54:40 INFO  [br.un.tp.re.ItemDoPedidoResource] (executor-thread-1) Solicitação para deletar item do pedido ID 6
+12-06-2025 13:54:40 INFO  [br.un.tp.re.ItemDoPedidoResource] (executor-thread-1) Item do pedido ID 6 deletado com sucesso

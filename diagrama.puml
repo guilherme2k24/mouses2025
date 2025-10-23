@@ -1,0 +1,147 @@
+@startuml
+' ====================================================
+' ENUMERAÇÕES
+' ====================================================
+enum Perfil {
+    ADM
+    USER
+}
+
+enum Conexao {
+    COM_FIO
+    SEM_FIO
+}
+
+enum FormaPagamento {
+    CARTAO_CREDITO
+    CARTAO_DEBITO
+    BOLETO
+    PIX
+}
+
+enum StatusDoPedido {
+    AGUARDANDO_PAGAMENTO
+    EM_PROCESSAMENTO
+    ENVIADO
+    ENTREGUE
+    CANCELADO
+}
+
+' ====================================================
+' CLASSES
+' ====================================================
+class Pagamento {
+    +id: Long
+    +formaPagamento: String
+    +valor: Double
+    +data: LocalDateTime
+}
+
+class Pedido {
+    +id: Long
+    +dataPedido: LocalDateTime
+    +valorTotal: Double
+    +enderecoEntrega: String
+    +status: String
+}
+
+class Usuario {
+    +id: Long
+    +username: String
+    +senha: String
+    +perfil: Perfil
+}
+
+class Cliente {
+    +id: Long
+    +nome: String
+    +sobreNome: String
+    +idade: String
+    +email: String
+}
+
+class ClienteFisico {
+    +cpf: String
+}
+
+class ClienteJuridico {
+    +cnpj: String
+}
+
+class ItemDoPedido {
+    +id: Long
+    +quantidade: Integer
+    +precoUnitario: Double
+    +precoTotal: Double
+}
+
+class Estoque {
+    +id: Long
+    +quantidade: Integer
+    +localizacao: String
+}
+
+class Mouse {
+    +id: Long
+    +modelo: String
+    +dpi: Integer
+    +pollingRate: Integer
+    +botoes: Integer
+    +formato: String
+    +peso: Double
+    +conexao: String
+}
+
+class Marca {
+    +id: Long
+    +nome: String
+}
+
+class Sensor {
+    +id: Long
+    +nome: String
+}
+
+class Categoria {
+    +id: Long
+    +nome: String
+}
+
+class Cor {
+    +id: Long
+    +nome: String
+}
+
+
+' ====================================================
+' RELACIONAMENTOS
+' ====================================================
+
+' --- 1. Herança ---
+Cliente <|-- ClienteFisico
+Cliente <|-- ClienteJuridico
+
+' --- 2. Composição ---
+Pedido "1" *-- "*" ItemDoPedido 
+ItemDoPedido "*" *-- "1" Mouse
+
+' --- 3. Agregação ---
+Mouse "1" o-- "1" Marca
+Mouse "*" o-- "1" Categoria 
+Mouse "*" o-- "*" Cor
+Mouse "*" o-- "1" Sensor
+
+
+' --- 4. Associação ---
+Pagamento "1" --> "1" Pedido 
+Pedido "*" --> "1" Cliente
+Usuario "1" --> "1" Cliente 
+Mouse "1" -- "*" Estoque
+
+' --- 5. Ligações com Enums ---
+Usuario ..> Perfil
+Mouse ..> Conexao
+Pagamento ..> FormaPagamento
+Pedido ..> StatusDoPedido
+
+@enduml

@@ -1,0 +1,7 @@
+12-09-2025 15:17:09 INFO  [br.un.tp.re.MouseResource] (executor-thread-1) Mouse cadastrado com sucesso: 4
+12-09-2025 15:17:09 INFO  [br.un.tp.re.MouseResource] (executor-thread-1) Total de mouses listados: 4
+12-09-2025 15:17:13 INFO  [br.un.tp.re.MouseResource] (executor-thread-1) Mouse com id 4 deletado com sucesso
+12-09-2025 15:17:13 INFO  [br.un.tp.re.MouseResource] (executor-thread-1) Total de mouses listados: 3
+12-09-2025 15:17:37 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Solicitação para salvar nova marca: HyperX
+12-09-2025 15:17:37 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Marca criada com ID: 9
+12-09-2025 15:17:51 INFO  [br.un.tp.re.MouseResource] (executor-thread-1) Total de mouses listados: 3

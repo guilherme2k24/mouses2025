@@ -1,0 +1,10 @@
+12-06-2025 13:52:03 INFO  [io.quarkus] (Quarkus Main Thread) mouses2025 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.21.3) started in 1.073s. Listening on: http://localhost:8080
+12-06-2025 13:52:03 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+12-06-2025 13:52:03 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-validator, jdbc-postgresql, narayana-jta, rest, rest-jackson, security, smallrye-context-propagation, smallrye-jwt, smallrye-openapi, swagger-ui, vertx]
+12-06-2025 13:52:03 INFO  [io.qu.de.de.RuntimeUpdatesProcessor] (vert.x-worker-thread-15) Live reload total time: 1.253s 
+12-06-2025 13:52:03 INFO  [br.un.tp.re.EstoqueResource] (executor-thread-1) Solicitação para salvar novo estoque: br.unitins.tp1.dto.EstoqueRequestDTO@582bb1f1
+12-06-2025 13:52:03 INFO  [br.un.tp.re.EstoqueResource] (executor-thread-1) Estoque criado com ID: 3
+12-06-2025 13:52:27 INFO  [br.un.tp.re.EstoqueResource] (executor-thread-1) Solicitação para deletar estoque ID: 3
+12-06-2025 13:52:28 INFO  [br.un.tp.re.EstoqueResource] (executor-thread-1) Estoque ID 3 deletado com sucesso.
+12-06-2025 13:52:57 INFO  [br.un.tp.re.EstoqueResource] (executor-thread-1) Solicitação para atualizar estoque ID 1
+12-06-2025 13:52:57 INFO  [br.un.tp.re.EstoqueResource] (executor-thread-1) Estoque ID 1 atualizado com sucesso.

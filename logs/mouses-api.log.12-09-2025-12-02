@@ -1,0 +1,10 @@
+12-09-2025 12:02:20 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Solicitação para deletar marca ID 4
+12-09-2025 12:02:20 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Marca ID 4 deletada com sucesso.
+12-09-2025 12:02:26 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Solicitação para salvar nova marca: HyperX
+12-09-2025 12:02:26 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Marca criada com ID: 7
+12-09-2025 12:02:28 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Solicitação para deletar marca ID 7
+12-09-2025 12:02:28 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Marca ID 7 deletada com sucesso.
+12-09-2025 12:02:31 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Solicitação para salvar nova marca: Hyperx
+12-09-2025 12:02:31 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Marca criada com ID: 8
+12-09-2025 12:02:33 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Solicitação para deletar marca ID 8
+12-09-2025 12:02:33 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Marca ID 8 deletada com sucesso.

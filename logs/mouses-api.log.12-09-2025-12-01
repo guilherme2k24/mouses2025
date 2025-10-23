@@ -1,0 +1,6 @@
+12-09-2025 12:01:38 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Solicitação para deletar marca ID 5
+12-09-2025 12:01:38 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Marca ID 5 deletada com sucesso.
+12-09-2025 12:01:42 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Solicitação para salvar nova marca: Zula
+12-09-2025 12:01:42 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Marca criada com ID: 6
+12-09-2025 12:01:44 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Solicitação para deletar marca ID 6
+12-09-2025 12:01:44 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Marca ID 6 deletada com sucesso.

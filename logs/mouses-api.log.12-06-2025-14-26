@@ -1,0 +1,4 @@
+12-06-2025 14:26:37 INFO  [br.un.tp.re.PagamentoResource] (executor-thread-1) Total de pagamentos listados: 3
+12-06-2025 14:26:44 INFO  [br.un.tp.re.PagamentoResource] (executor-thread-1) Pagamento com id 3 deletado com sucesso
+12-06-2025 14:26:49 INFO  [br.un.tp.re.PagamentoResource] (executor-thread-1) Pagamento encontrado: 2
+12-06-2025 14:26:57 INFO  [br.un.tp.re.PagamentoResource] (executor-thread-1) Pagamento com id 1 atualizado com sucesso

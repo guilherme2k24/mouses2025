@@ -1,0 +1,4 @@
+12-06-2025 13:37:02 INFO  [br.un.tp.re.ClienteFisicoResource] (executor-thread-1) Solicitação para deletar cliente físico ID: 11
+12-06-2025 13:37:02 INFO  [br.un.tp.re.ClienteFisicoResource] (executor-thread-1) Cliente físico ID 11 deletado com sucesso.
+12-06-2025 13:37:26 INFO  [br.un.tp.re.ClienteFisicoResource] (executor-thread-1) Solicitação para atualizar cliente físico ID 11
+12-06-2025 13:37:26 WARN  [br.un.tp.re.ClienteFisicoResource] (executor-thread-1) Cliente físico com ID 11 não encontrado para atualização.

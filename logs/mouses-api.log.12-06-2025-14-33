@@ -1,0 +1,6 @@
+12-06-2025 14:33:58 INFO  [io.quarkus] (Quarkus Main Thread) mouses2025 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.21.3) started in 1.102s. Listening on: http://localhost:8080
+12-06-2025 14:33:58 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+12-06-2025 14:33:58 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-validator, jdbc-postgresql, narayana-jta, rest, rest-jackson, security, smallrye-context-propagation, smallrye-jwt, smallrye-openapi, swagger-ui, vertx]
+12-06-2025 14:33:58 INFO  [io.qu.de.de.RuntimeUpdatesProcessor] (vert.x-worker-thread-12) Live reload total time: 1.277s 
+12-06-2025 14:33:58 INFO  [br.un.tp.re.UsuarioResource] (executor-thread-1) Buscando perfil do usuário logado: joao
+12-06-2025 14:33:58 INFO  [br.un.tp.re.UsuarioResource] (executor-thread-1) Perfil encontrado para usuário: joao

@@ -1,0 +1,6 @@
+12-09-2025 11:28:34 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Solicitação para atualizar marca ID 1
+12-09-2025 11:28:34 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Marca ID 1 atualizada com sucesso.
+12-09-2025 11:28:37 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Solicitação para atualizar marca ID 1
+12-09-2025 11:28:37 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Marca ID 1 atualizada com sucesso.
+12-09-2025 11:28:38 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Solicitação para deletar marca ID 3
+12-09-2025 11:28:38 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Marca ID 3 deletada com sucesso.

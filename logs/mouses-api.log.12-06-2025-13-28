@@ -1,0 +1,6 @@
+12-06-2025 13:28:04 INFO  [io.quarkus] (Quarkus Main Thread) mouses2025 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.21.3) started in 1.236s. Listening on: http://localhost:8080
+12-06-2025 13:28:04 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+12-06-2025 13:28:04 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-validator, jdbc-postgresql, narayana-jta, rest, rest-jackson, security, smallrye-context-propagation, smallrye-jwt, smallrye-openapi, swagger-ui, vertx]
+12-06-2025 13:28:04 INFO  [io.qu.de.de.RuntimeUpdatesProcessor] (vert.x-worker-thread-1) Live reload total time: 2.186s 
+12-06-2025 13:28:04 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-1) Solicitação para salvar nova categoria: Office
+12-06-2025 13:28:04 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-1) Categoria criada com ID: 3

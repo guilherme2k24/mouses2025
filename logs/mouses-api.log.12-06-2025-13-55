@@ -1,0 +1,2 @@
+12-06-2025 13:55:06 INFO  [br.un.tp.re.ItemDoPedidoResource] (executor-thread-1) Solicitação para atualizar item do pedido ID 1
+12-06-2025 13:55:06 INFO  [br.un.tp.re.ItemDoPedidoResource] (executor-thread-1) Item do pedido ID 1 atualizado com sucesso

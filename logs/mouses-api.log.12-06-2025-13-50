@@ -1,0 +1,2 @@
+12-06-2025 13:50:44 INFO  [br.un.tp.re.ClienteJuridicoResource] (executor-thread-1) Solicitação para atualizar cliente jurídico ID 3
+12-06-2025 13:50:44 INFO  [br.un.tp.re.ClienteJuridicoResource] (executor-thread-1) Cliente jurídico ID 3 atualizado com sucesso.

@@ -1,0 +1,4 @@
+22-10-2025 17:21:42 INFO  [br.un.tp.re.MarcaResource] (executor-thread-5) Solicitação para salvar nova marca: eRR
+22-10-2025 17:21:42 INFO  [br.un.tp.re.MarcaResource] (executor-thread-5) Marca criada com ID: 3
+22-10-2025 17:21:47 INFO  [br.un.tp.re.MarcaResource] (executor-thread-5) Solicitação para deletar marca ID 3
+22-10-2025 17:21:47 INFO  [br.un.tp.re.MarcaResource] (executor-thread-5) Marca ID 3 deletada com sucesso.

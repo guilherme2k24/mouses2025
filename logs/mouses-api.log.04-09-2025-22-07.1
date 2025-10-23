@@ -1,0 +1,527 @@
+04-09-2025 21:21:14 INFO  [or.hi.jp.in.ut.LogHelper] (Test runner thread) HHH000204: Processing PersistenceUnitInfo [name: <default>]
+04-09-2025 21:21:14 INFO  [or.hi.Version] (Test runner thread) HHH000412: Hibernate ORM core version 6.6.13.Final
+04-09-2025 21:21:14 INFO  [or.hi.or.co.pooling] (Test runner thread) HHH10001005: Database info:
+	Database JDBC URL [undefined/unknown]
+	Database driver: undefined/unknown
+	Database version: 12.0
+	Autocommit mode: undefined/unknown
+	Isolation level: <unknown>
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+04-09-2025 21:21:15 INFO  [or.hi.va.in.ut.Version] (Test runner thread) HV000001: Hibernate Validator 8.0.2.Final
+04-09-2025 21:21:15 INFO  [or.hi.or.co.pooling] (JPA Startup Thread) HHH10001005: Database info:
+	Database JDBC URL [undefined/unknown]
+	Database driver: undefined/unknown
+	Database version: 12.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+04-09-2025 21:21:16 INFO  [io.quarkus] (Test runner thread) mouses2025 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.21.3) started in 3.533s. Listening on: http://localhost:8081
+04-09-2025 21:21:16 INFO  [io.quarkus] (Test runner thread) Profile test activated. 
+04-09-2025 21:21:16 INFO  [io.quarkus] (Test runner thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-validator, jdbc-postgresql, narayana-jta, rest, rest-jackson, security, smallrye-context-propagation, smallrye-jwt, smallrye-openapi, swagger-ui, vertx]
+04-09-2025 21:21:17 INFO  [io.quarkus] (Test runner thread) mouses2025(test application) stopped in 0.028s
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [39m==================== TEST REPORT #1[39m ====================
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest ItemDoPedidoResourceTest#testGetItemDoPedidoById() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.ItemDoPedidoResourceTest.criarCliente(ItemDoPedidoResourceTest.java:31)
+	at br.unitins.tp1.resource.ItemDoPedidoResourceTest.testGetItemDoPedidoById(ItemDoPedidoResourceTest.java:113)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest ItemDoPedidoResourceTest#testCreateItemDoPedidoInvalid() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.ItemDoPedidoResourceTest.criarCliente(ItemDoPedidoResourceTest.java:31)
+	at br.unitins.tp1.resource.ItemDoPedidoResourceTest.testCreateItemDoPedidoInvalid(ItemDoPedidoResourceTest.java:213)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest ItemDoPedidoResourceTest#testGetAllItensDoPedido() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.ItemDoPedidoResourceTest.testGetAllItensDoPedido(ItemDoPedidoResourceTest.java:84)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest ItemDoPedidoResourceTest#testDeleteItemDoPedido() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.ItemDoPedidoResourceTest.criarCliente(ItemDoPedidoResourceTest.java:31)
+	at br.unitins.tp1.resource.ItemDoPedidoResourceTest.testDeleteItemDoPedido(ItemDoPedidoResourceTest.java:186)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest ItemDoPedidoResourceTest#testCreateItemDoPedido() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.ItemDoPedidoResourceTest.criarCliente(ItemDoPedidoResourceTest.java:31)
+	at br.unitins.tp1.resource.ItemDoPedidoResourceTest.testCreateItemDoPedido(ItemDoPedidoResourceTest.java:89)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest ItemDoPedidoResourceTest#testUpdateItemDoPedido() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.ItemDoPedidoResourceTest.criarCliente(ItemDoPedidoResourceTest.java:31)
+	at br.unitins.tp1.resource.ItemDoPedidoResourceTest.testUpdateItemDoPedido(ItemDoPedidoResourceTest.java:141)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest MarcaResourceTest#testDeleteMarca() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.MarcaResourceTest.testDeleteMarca(MarcaResourceTest.java:129)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest MarcaResourceTest#testGetMarcaById() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.MarcaResourceTest.testGetMarcaById(MarcaResourceTest.java:101)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest MarcaResourceTest#testGetAllMarcas() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.MarcaResourceTest.testGetAllMarcas(MarcaResourceTest.java:22)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest MarcaResourceTest#testUpdateMarca() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.MarcaResourceTest.testUpdateMarca(MarcaResourceTest.java:40)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest MarcaResourceTest#testCreateMarca() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.MarcaResourceTest.testCreateMarca(MarcaResourceTest.java:82)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest MarcaResourceTest#testCreateMarcaInvalid() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.MarcaResourceTest.testCreateMarcaInvalid(MarcaResourceTest.java:155)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest ClienteFisicoResourceTest#testSalvarClienteFisico() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.ClienteFisicoResourceTest.testSalvarClienteFisico(ClienteFisicoResourceTest.java:35)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest ClienteFisicoResourceTest#testDeletarClienteFisico() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.ClienteFisicoResourceTest.testDeletarClienteFisico(ClienteFisicoResourceTest.java:153)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest ClienteFisicoResourceTest#testCreateClienteFisicoInvalid() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.ClienteFisicoResourceTest.testCreateClienteFisicoInvalid(ClienteFisicoResourceTest.java:190)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest ClienteFisicoResourceTest#testBuscarPorId() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.ClienteFisicoResourceTest.testBuscarPorId(ClienteFisicoResourceTest.java:111)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest ClienteFisicoResourceTest#testListarTodos() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.ClienteFisicoResourceTest.testListarTodos(ClienteFisicoResourceTest.java:131)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest ClienteFisicoResourceTest#testUpdateClienteFisico() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.ClienteFisicoResourceTest.testUpdateClienteFisico(ClienteFisicoResourceTest.java:60)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest PagamentoResourceTest#testDeletePagamento() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.PagamentoResourceTest.testDeletePagamento(PagamentoResourceTest.java:137)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest PagamentoResourceTest#testUpdatePagamento() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.PagamentoResourceTest.testUpdatePagamento(PagamentoResourceTest.java:95)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest PagamentoResourceTest#testCreatePagamentoInvalid() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <404> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.PagamentoResourceTest.testCreatePagamentoInvalid(PagamentoResourceTest.java:189)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest PagamentoResourceTest#testCreatePagamento() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.PagamentoResourceTest.testCreatePagamento(PagamentoResourceTest.java:33)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest PagamentoResourceTest#testGetPagamentoById() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.PagamentoResourceTest.testGetPagamentoById(PagamentoResourceTest.java:65)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest PagamentoResourceTest#testGetAllPagamentos() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.PagamentoResourceTest.testGetAllPagamentos(PagamentoResourceTest.java:44)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest ClienteJuridicoResourceTest#testCreateClienteJuridicoInvalid() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.ClienteJuridicoResourceTest.testCreateClienteJuridicoInvalid(ClienteJuridicoResourceTest.java:190)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest ClienteJuridicoResourceTest#testUpdateClienteJuridico() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.ClienteJuridicoResourceTest.testUpdateClienteJuridico(ClienteJuridicoResourceTest.java:60)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest ClienteJuridicoResourceTest#testListarTodos() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.ClienteJuridicoResourceTest.testListarTodos(ClienteJuridicoResourceTest.java:131)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest ClienteJuridicoResourceTest#testDeletarClienteJuridico() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.ClienteJuridicoResourceTest.testDeletarClienteJuridico(ClienteJuridicoResourceTest.java:153)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest ClienteJuridicoResourceTest#testBuscarPorId() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.ClienteJuridicoResourceTest.testBuscarPorId(ClienteJuridicoResourceTest.java:111)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest ClienteJuridicoResourceTest#testSalvarClienteJuridico() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.ClienteJuridicoResourceTest.testSalvarClienteJuridico(ClienteJuridicoResourceTest.java:35)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest CategoriaResourceTest#testCreateCategoria() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.CategoriaResourceTest.testCreateCategoria(CategoriaResourceTest.java:82)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest CategoriaResourceTest#testUpdateCategoria() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.CategoriaResourceTest.testUpdateCategoria(CategoriaResourceTest.java:40)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest CategoriaResourceTest#testCreateCategoriaInvalid() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.CategoriaResourceTest.testCreateCategoriaInvalid(CategoriaResourceTest.java:155)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest CategoriaResourceTest#testGetAllCategorias() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.CategoriaResourceTest.testGetAllCategorias(CategoriaResourceTest.java:22)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest CategoriaResourceTest#testGetCategoriaById() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.CategoriaResourceTest.testGetCategoriaById(CategoriaResourceTest.java:101)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest CategoriaResourceTest#testDeleteCategoria() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.CategoriaResourceTest.testDeleteCategoria(CategoriaResourceTest.java:129)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest PedidoResourceTest#testCreatePedidoInvalid() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.PedidoResourceTest.criarCliente(PedidoResourceTest.java:32)
+	at br.unitins.tp1.resource.PedidoResourceTest.testCreatePedidoInvalid(PedidoResourceTest.java:165)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest PedidoResourceTest#testDeletePedido() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.PedidoResourceTest.criarCliente(PedidoResourceTest.java:32)
+	at br.unitins.tp1.resource.PedidoResourceTest.testDeletePedido(PedidoResourceTest.java:137)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest PedidoResourceTest#testGetPedidoById() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.PedidoResourceTest.criarCliente(PedidoResourceTest.java:32)
+	at br.unitins.tp1.resource.PedidoResourceTest.testGetPedidoById(PedidoResourceTest.java:68)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest PedidoResourceTest#testUpdatePedido() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.PedidoResourceTest.criarCliente(PedidoResourceTest.java:32)
+	at br.unitins.tp1.resource.PedidoResourceTest.testUpdatePedido(PedidoResourceTest.java:97)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest PedidoResourceTest#testGetAllPedidos() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.PedidoResourceTest.testGetAllPedidos(PedidoResourceTest.java:41)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest PedidoResourceTest#testCreatePedido() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.PedidoResourceTest.criarCliente(PedidoResourceTest.java:32)
+	at br.unitins.tp1.resource.PedidoResourceTest.testCreatePedido(PedidoResourceTest.java:46)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest MousesResourceTest#testUpdateMouse() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.MousesResourceTest.testUpdateMouse(MousesResourceTest.java:109)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest MousesResourceTest#testCreateMouse() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.MousesResourceTest.testCreateMouse(MousesResourceTest.java:83)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest MousesResourceTest#testDeleteMouse() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.MousesResourceTest.testDeleteMouse(MousesResourceTest.java:167)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest MousesResourceTest#testCreateMouseInvalid() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.MousesResourceTest.testCreateMouseInvalid(MousesResourceTest.java:208)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest MousesResourceTest#testGetMouseById() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.MousesResourceTest.testGetMouseById(MousesResourceTest.java:48)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest MousesResourceTest#testGetAllMouses() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.MousesResourceTest.testGetAllMouses(MousesResourceTest.java:22)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest EstoqueResourceTest#testCreateEstoqueInvalid() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.EstoqueResourceTest.testCreateEstoqueInvalid(EstoqueResourceTest.java:203)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest EstoqueResourceTest#testGetEstoqueById() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.EstoqueResourceTest.criarMouseParaEstoque(EstoqueResourceTest.java:36)
+	at br.unitins.tp1.resource.EstoqueResourceTest.testGetEstoqueById(EstoqueResourceTest.java:77)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest EstoqueResourceTest#testGetAllEstoques() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.EstoqueResourceTest.testGetAllEstoques(EstoqueResourceTest.java:72)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest EstoqueResourceTest#testDeleteEstoque() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.EstoqueResourceTest.criarMouseParaEstoque(EstoqueResourceTest.java:36)
+	at br.unitins.tp1.resource.EstoqueResourceTest.testDeleteEstoque(EstoqueResourceTest.java:158)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest EstoqueResourceTest#testUpdateEstoque() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.EstoqueResourceTest.criarMouseParaEstoque(EstoqueResourceTest.java:36)
+	at br.unitins.tp1.resource.EstoqueResourceTest.testUpdateEstoque(EstoqueResourceTest.java:109)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [91mTest EstoqueResourceTest#testCreateEstoque() failed 
+[39m: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at br.unitins.tp1.resource.EstoqueResourceTest.criarMouseParaEstoque(EstoqueResourceTest.java:36)
+	at br.unitins.tp1.resource.EstoqueResourceTest.testCreateEstoque(EstoqueResourceTest.java:42)
+
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [39m>>>>>>>>>>>>>>>>>>>> [91mSummary:[39m <<<<<<<<<<<<<<<<<<<<
+br.unitins.tp1.resource.ItemDoPedidoResourceTest#criarCliente(ItemDoPedidoResourceTest.java:31) [91mItemDoPedidoResourceTest#testGetItemDoPedidoById()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.ItemDoPedidoResourceTest#criarCliente(ItemDoPedidoResourceTest.java:31) [91mItemDoPedidoResourceTest#testCreateItemDoPedidoInvalid()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.ItemDoPedidoResourceTest#testGetAllItensDoPedido(ItemDoPedidoResourceTest.java:84) [91mItemDoPedidoResourceTest#testGetAllItensDoPedido()[39m 1 expectation failed.
+Expected status code <200> but was <401>.
+br.unitins.tp1.resource.ItemDoPedidoResourceTest#criarCliente(ItemDoPedidoResourceTest.java:31) [91mItemDoPedidoResourceTest#testDeleteItemDoPedido()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.ItemDoPedidoResourceTest#criarCliente(ItemDoPedidoResourceTest.java:31) [91mItemDoPedidoResourceTest#testCreateItemDoPedido()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.ItemDoPedidoResourceTest#criarCliente(ItemDoPedidoResourceTest.java:31) [91mItemDoPedidoResourceTest#testUpdateItemDoPedido()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.MarcaResourceTest#testDeleteMarca(MarcaResourceTest.java:129) [91mMarcaResourceTest#testDeleteMarca()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.MarcaResourceTest#testGetMarcaById(MarcaResourceTest.java:101) [91mMarcaResourceTest#testGetMarcaById()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.MarcaResourceTest#testGetAllMarcas(MarcaResourceTest.java:22) [91mMarcaResourceTest#testGetAllMarcas()[39m 1 expectation failed.
+Expected status code <200> but was <401>.
+br.unitins.tp1.resource.MarcaResourceTest#testUpdateMarca(MarcaResourceTest.java:40) [91mMarcaResourceTest#testUpdateMarca()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.MarcaResourceTest#testCreateMarca(MarcaResourceTest.java:82) [91mMarcaResourceTest#testCreateMarca()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.MarcaResourceTest#testCreateMarcaInvalid(MarcaResourceTest.java:155) [91mMarcaResourceTest#testCreateMarcaInvalid()[39m 1 expectation failed.
+Expected status code <400> but was <401>.
+br.unitins.tp1.resource.ClienteFisicoResourceTest#testSalvarClienteFisico(ClienteFisicoResourceTest.java:35) [91mClienteFisicoResourceTest#testSalvarClienteFisico()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.ClienteFisicoResourceTest#testDeletarClienteFisico(ClienteFisicoResourceTest.java:153) [91mClienteFisicoResourceTest#testDeletarClienteFisico()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.ClienteFisicoResourceTest#testCreateClienteFisicoInvalid(ClienteFisicoResourceTest.java:190) [91mClienteFisicoResourceTest#testCreateClienteFisicoInvalid()[39m 1 expectation failed.
+Expected status code <400> but was <401>.
+br.unitins.tp1.resource.ClienteFisicoResourceTest#testBuscarPorId(ClienteFisicoResourceTest.java:111) [91mClienteFisicoResourceTest#testBuscarPorId()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.ClienteFisicoResourceTest#testListarTodos(ClienteFisicoResourceTest.java:131) [91mClienteFisicoResourceTest#testListarTodos()[39m 1 expectation failed.
+Expected status code <200> but was <401>.
+br.unitins.tp1.resource.ClienteFisicoResourceTest#testUpdateClienteFisico(ClienteFisicoResourceTest.java:60) [91mClienteFisicoResourceTest#testUpdateClienteFisico()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.PagamentoResourceTest#testDeletePagamento(PagamentoResourceTest.java:137) [91mPagamentoResourceTest#testDeletePagamento()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.PagamentoResourceTest#testUpdatePagamento(PagamentoResourceTest.java:95) [91mPagamentoResourceTest#testUpdatePagamento()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.PagamentoResourceTest#testCreatePagamentoInvalid(PagamentoResourceTest.java:189) [91mPagamentoResourceTest#testCreatePagamentoInvalid()[39m 1 expectation failed.
+Expected status code <404> but was <401>.
+br.unitins.tp1.resource.PagamentoResourceTest#testCreatePagamento(PagamentoResourceTest.java:33) [91mPagamentoResourceTest#testCreatePagamento()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.PagamentoResourceTest#testGetPagamentoById(PagamentoResourceTest.java:65) [91mPagamentoResourceTest#testGetPagamentoById()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.PagamentoResourceTest#testGetAllPagamentos(PagamentoResourceTest.java:44) [91mPagamentoResourceTest#testGetAllPagamentos()[39m 1 expectation failed.
+Expected status code <200> but was <401>.
+br.unitins.tp1.resource.ClienteJuridicoResourceTest#testCreateClienteJuridicoInvalid(ClienteJuridicoResourceTest.java:190) [91mClienteJuridicoResourceTest#testCreateClienteJuridicoInvalid()[39m 1 expectation failed.
+Expected status code <400> but was <401>.
+br.unitins.tp1.resource.ClienteJuridicoResourceTest#testUpdateClienteJuridico(ClienteJuridicoResourceTest.java:60) [91mClienteJuridicoResourceTest#testUpdateClienteJuridico()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.ClienteJuridicoResourceTest#testListarTodos(ClienteJuridicoResourceTest.java:131) [91mClienteJuridicoResourceTest#testListarTodos()[39m 1 expectation failed.
+Expected status code <200> but was <401>.
+br.unitins.tp1.resource.ClienteJuridicoResourceTest#testDeletarClienteJuridico(ClienteJuridicoResourceTest.java:153) [91mClienteJuridicoResourceTest#testDeletarClienteJuridico()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.ClienteJuridicoResourceTest#testBuscarPorId(ClienteJuridicoResourceTest.java:111) [91mClienteJuridicoResourceTest#testBuscarPorId()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.ClienteJuridicoResourceTest#testSalvarClienteJuridico(ClienteJuridicoResourceTest.java:35) [91mClienteJuridicoResourceTest#testSalvarClienteJuridico()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.CategoriaResourceTest#testCreateCategoria(CategoriaResourceTest.java:82) [91mCategoriaResourceTest#testCreateCategoria()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.CategoriaResourceTest#testUpdateCategoria(CategoriaResourceTest.java:40) [91mCategoriaResourceTest#testUpdateCategoria()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.CategoriaResourceTest#testCreateCategoriaInvalid(CategoriaResourceTest.java:155) [91mCategoriaResourceTest#testCreateCategoriaInvalid()[39m 1 expectation failed.
+Expected status code <400> but was <401>.
+br.unitins.tp1.resource.CategoriaResourceTest#testGetAllCategorias(CategoriaResourceTest.java:22) [91mCategoriaResourceTest#testGetAllCategorias()[39m 1 expectation failed.
+Expected status code <200> but was <401>.
+br.unitins.tp1.resource.CategoriaResourceTest#testGetCategoriaById(CategoriaResourceTest.java:101) [91mCategoriaResourceTest#testGetCategoriaById()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.CategoriaResourceTest#testDeleteCategoria(CategoriaResourceTest.java:129) [91mCategoriaResourceTest#testDeleteCategoria()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.PedidoResourceTest#criarCliente(PedidoResourceTest.java:32) [91mPedidoResourceTest#testCreatePedidoInvalid()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.PedidoResourceTest#criarCliente(PedidoResourceTest.java:32) [91mPedidoResourceTest#testDeletePedido()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.PedidoResourceTest#criarCliente(PedidoResourceTest.java:32) [91mPedidoResourceTest#testGetPedidoById()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.PedidoResourceTest#criarCliente(PedidoResourceTest.java:32) [91mPedidoResourceTest#testUpdatePedido()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.PedidoResourceTest#testGetAllPedidos(PedidoResourceTest.java:41) [91mPedidoResourceTest#testGetAllPedidos()[39m 1 expectation failed.
+Expected status code <200> but was <401>.
+br.unitins.tp1.resource.PedidoResourceTest#criarCliente(PedidoResourceTest.java:32) [91mPedidoResourceTest#testCreatePedido()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.MousesResourceTest#testUpdateMouse(MousesResourceTest.java:109) [91mMousesResourceTest#testUpdateMouse()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.MousesResourceTest#testCreateMouse(MousesResourceTest.java:83) [91mMousesResourceTest#testCreateMouse()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.MousesResourceTest#testDeleteMouse(MousesResourceTest.java:167) [91mMousesResourceTest#testDeleteMouse()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.MousesResourceTest#testCreateMouseInvalid(MousesResourceTest.java:208) [91mMousesResourceTest#testCreateMouseInvalid()[39m 1 expectation failed.
+Expected status code <400> but was <401>.
+br.unitins.tp1.resource.MousesResourceTest#testGetMouseById(MousesResourceTest.java:48) [91mMousesResourceTest#testGetMouseById()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.MousesResourceTest#testGetAllMouses(MousesResourceTest.java:22) [91mMousesResourceTest#testGetAllMouses()[39m 1 expectation failed.
+Expected status code <200> but was <401>.
+br.unitins.tp1.resource.EstoqueResourceTest#testCreateEstoqueInvalid(EstoqueResourceTest.java:203) [91mEstoqueResourceTest#testCreateEstoqueInvalid()[39m 1 expectation failed.
+Expected status code <400> but was <401>.
+br.unitins.tp1.resource.EstoqueResourceTest#criarMouseParaEstoque(EstoqueResourceTest.java:36) [91mEstoqueResourceTest#testGetEstoqueById()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.EstoqueResourceTest#testGetAllEstoques(EstoqueResourceTest.java:72) [91mEstoqueResourceTest#testGetAllEstoques()[39m 1 expectation failed.
+Expected status code <200> but was <401>.
+br.unitins.tp1.resource.EstoqueResourceTest#criarMouseParaEstoque(EstoqueResourceTest.java:36) [91mEstoqueResourceTest#testDeleteEstoque()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.EstoqueResourceTest#criarMouseParaEstoque(EstoqueResourceTest.java:36) [91mEstoqueResourceTest#testUpdateEstoque()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+br.unitins.tp1.resource.EstoqueResourceTest#criarMouseParaEstoque(EstoqueResourceTest.java:36) [91mEstoqueResourceTest#testCreateEstoque()[39m 1 expectation failed.
+Expected status code <201> but was <401>.
+04-09-2025 21:21:17 ERROR [io.qu.test] (Test runner thread) [39m>>>>>>>>>>>>>>>>>>>> [91m54 TESTS FAILED[39m <<<<<<<<<<<<<<<<<<<<
+04-09-2025 21:21:22 INFO  [br.un.tp.re.MouseResource] (executor-thread-3) Total de mouses listados: 2

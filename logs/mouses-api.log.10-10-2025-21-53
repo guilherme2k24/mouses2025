@@ -1,0 +1,2 @@
+10-10-2025 21:53:05 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-1) Solicitação para salvar nova categoria: Gamers
+10-10-2025 21:53:05 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-1) Categoria criada com ID: 3

@@ -1,0 +1,4 @@
+12-09-2025 11:52:00 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Solicitação para atualizar marca ID 2
+12-09-2025 11:52:00 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Marca ID 2 atualizada com sucesso.
+12-09-2025 11:52:06 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Solicitação para salvar nova marca: Razerr
+12-09-2025 11:52:06 INFO  [br.un.tp.re.MarcaResource] (executor-thread-1) Marca criada com ID: 5

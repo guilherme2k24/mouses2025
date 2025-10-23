@@ -1,0 +1,3 @@
+12-06-2025 13:30:12 WARN  [br.un.tp.re.CategoriaResource] (executor-thread-1) Categoria com ID 213 não encontrada.
+12-06-2025 13:30:37 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-1) Solicitação para atualizar categoria ID 2 com novos dados.
+12-06-2025 13:30:37 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-1) Categoria ID 2 atualizada com sucesso.

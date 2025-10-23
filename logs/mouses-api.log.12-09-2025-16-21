@@ -1,0 +1,4 @@
+12-09-2025 16:21:22 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-2) Solicitação para salvar nova categoria: Gamer Plus
+12-09-2025 16:21:22 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-2) Categoria criada com ID: 3
+12-09-2025 16:21:29 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-2) Solicitação para deletar categoria ID: 3
+12-09-2025 16:21:29 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-2) Categoria ID 3 deletada com sucesso.
