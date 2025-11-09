@@ -1,0 +1,5 @@
+09-11-2025 20:04:13 INFO  [br.un.tp.re.MouseResource] (executor-thread-9) Total de mouses listados: 12
+09-11-2025 20:04:28 INFO  [br.un.tp.re.MouseResource] (executor-thread-9) Total de mouses listados: 12
+09-11-2025 20:04:52 INFO  [br.un.tp.re.MarcaResource] (executor-thread-10) Solicitação para salvar nova marca: dadaadad
+09-11-2025 20:04:52 INFO  [br.un.tp.re.MarcaResource] (executor-thread-10) Marca criada com ID: 13
+09-11-2025 20:04:54 INFO  [br.un.tp.re.MouseResource] (executor-thread-10) Total de mouses listados: 12

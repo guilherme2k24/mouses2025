@@ -1,0 +1,6 @@
+09-11-2025 20:00:30 INFO  [br.un.tp.re.MarcaResource] (executor-thread-9) Solicitação para deletar marca ID 10
+09-11-2025 20:00:30 INFO  [br.un.tp.re.MarcaResource] (executor-thread-9) Marca ID 10 deletada com sucesso.
+09-11-2025 20:00:35 INFO  [br.un.tp.re.MarcaResource] (executor-thread-9) Solicitação para deletar marca ID 11
+09-11-2025 20:00:36 INFO  [br.un.tp.re.MarcaResource] (executor-thread-9) Marca ID 11 deletada com sucesso.
+09-11-2025 20:00:41 INFO  [br.un.tp.re.MarcaResource] (executor-thread-9) Solicitação para deletar marca ID 12
+09-11-2025 20:00:41 INFO  [br.un.tp.re.MarcaResource] (executor-thread-9) Marca ID 12 deletada com sucesso.

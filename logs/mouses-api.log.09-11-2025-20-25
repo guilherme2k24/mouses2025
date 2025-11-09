@@ -1,0 +1,3 @@
+09-11-2025 20:25:35 INFO  [br.un.tp.re.MarcaResource] (executor-thread-2) Solicitação para salvar nova marca: ladad
+09-11-2025 20:25:35 INFO  [br.un.tp.re.MarcaResource] (executor-thread-2) Marca criada com ID: 10
+09-11-2025 20:25:44 INFO  [br.un.tp.re.MouseResource] (executor-thread-2) Total de mouses listados: 12

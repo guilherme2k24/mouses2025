@@ -1,0 +1,4 @@
+09-11-2025 18:21:01 INFO  [br.un.tp.re.PedidoResource] (executor-thread-2) Pedido criado com sucesso: 8 com 1 itens, valor total: R$ 7199,88
+09-11-2025 18:21:01 INFO  [br.un.tp.re.PedidoResource] (executor-thread-2) Listando todos os pedidos (Adm): 2 encontrados
+09-11-2025 18:21:33 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-2) Solicitação para salvar nova categoria: dada
+09-11-2025 18:21:33 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-2) Categoria criada com ID: 5

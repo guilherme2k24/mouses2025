@@ -1,0 +1,4 @@
+09-11-2025 00:18:28 INFO  [br.un.tp.re.AuthResource] (executor-thread-4) Tentativa de login para usuário: leandra
+09-11-2025 00:18:29 INFO  [br.un.tp.re.AuthResource] (executor-thread-4) Login bem-sucedido para usuário: leandra
+09-11-2025 00:18:41 ERROR [br.un.tp.re.PedidoResource] (executor-thread-4) Erro ao criar pedido: Cliente não encontrado com ID: 9007199254740991
+09-11-2025 00:18:54 INFO  [br.un.tp.re.PedidoResource] (executor-thread-4) Pedido criado com sucesso: 8 com 1 itens, valor total: R$ 1199,98

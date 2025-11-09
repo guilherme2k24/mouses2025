@@ -1,0 +1,4 @@
+09-11-2025 17:07:21 INFO  [br.un.tp.re.UsuarioResource] (executor-thread-3) Buscando perfil do usuário logado: joao
+09-11-2025 17:07:21 INFO  [br.un.tp.re.UsuarioResource] (executor-thread-3) Perfil encontrado para usuário: joao
+09-11-2025 17:07:30 INFO  [br.un.tp.re.UsuarioResource] (executor-thread-3) Buscando perfil do usuário logado: leandra
+09-11-2025 17:07:30 INFO  [br.un.tp.re.UsuarioResource] (executor-thread-3) Perfil encontrado para usuário: leandra

@@ -1,0 +1,5 @@
+09-11-2025 19:57:26 INFO  [br.un.tp.re.MarcaResource] (executor-thread-4) Solicitação para salvar nova marca: ATK
+09-11-2025 19:57:26 INFO  [br.un.tp.re.MarcaResource] (executor-thread-4) Marca criada com ID: 10
+09-11-2025 19:57:28 INFO  [br.un.tp.re.MouseResource] (executor-thread-4) Total de mouses listados: 12
+09-11-2025 19:57:39 INFO  [br.un.tp.re.MouseResource] (executor-thread-4) Total de mouses listados: 12
+09-11-2025 19:57:45 INFO  [br.un.tp.re.MouseResource] (executor-thread-4) Total de mouses listados: 12

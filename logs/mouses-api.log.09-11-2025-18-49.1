@@ -1,0 +1,124 @@
+09-11-2025 18:47:40 WARN  [io.qu.config] (Quarkus Main Thread) Unrecognized configuration key "quarkus.mailer.auth" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
+09-11-2025 18:47:41 WARN  [or.hi.to.sc.in.ExceptionHandlerLoggedImpl] (JPA Startup Thread) GenerationTarget encountered exception accepting command : Error executing DDL "(120, 3, 'C3')   INSERT INTO pedido(valortotal, cliente_id, datapedido, status) VALUES (299.99, 1, '2025-06-04','EM_PROCESSAMENTO'), (199.99, 2, '2025-06-04','ENTREGUE'), (199.99, 3, '2025-06-04', 'EM_PROCESSAMENTO'), (199.99, 3, '2025-06-04', 'EM_PROCESSAMENTO'), (150.00, 4, '2025-06-05', 'EM_PROCESSAMENTO'), (250.00, 5, '2025-06-06', 'EM_PROCESSAMENTO'), (350.00, 6, '2025-06-07', 'EM_PROCESSAMENTO')" via JDBC [ERRO: erro de sintaxe em ou próximo a "120"
+  Posição: 2]: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "(120, 3, 'C3')   INSERT INTO pedido(valortotal, cliente_id, datapedido, status) VALUES (299.99, 1, '2025-06-04','EM_PROCESSAMENTO'), (199.99, 2, '2025-06-04','ENTREGUE'), (199.99, 3, '2025-06-04', 'EM_PROCESSAMENTO'), (199.99, 3, '2025-06-04', 'EM_PROCESSAMENTO'), (150.00, 4, '2025-06-05', 'EM_PROCESSAMENTO'), (250.00, 5, '2025-06-06', 'EM_PROCESSAMENTO'), (350.00, 6, '2025-06-07', 'EM_PROCESSAMENTO')" via JDBC [ERRO: erro de sintaxe em ou próximo a "120"
+  Posição: 2]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233)
+	at org.hibernate.tool.schema.internal.Helper.applyScript(Helper.java:255)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportFiles(SchemaCreatorImpl.java:694)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:597)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:186)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:144)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:120)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:250)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at io.quarkus.hibernate.orm.runtime.observers.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:21)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
+	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:87)
+	at io.quarkus.hibernate.orm.runtime.FastBootHibernatePersistenceProvider.createEntityManagerFactory(FastBootHibernatePersistenceProvider.java:72)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:80)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$LazyPersistenceUnit.get(JPAConfig.java:163)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$1.run(JPAConfig.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERRO: erro de sintaxe em ou próximo a "120"
+  Posição: 2
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:312)
+	at io.agroal.pool.wrapper.StatementWrapper.execute(StatementWrapper.java:220)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 21 more
+
+09-11-2025 18:47:41 WARN  [or.hi.to.sc.in.ExceptionHandlerLoggedImpl] (JPA Startup Thread) GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO itemdopedido(precototal, precounitario, quantidade, mouse_id, pedido_id) VALUES (299.99, 299.99, 1, 1, 1), (199.99, 199.99, 1, 2, 2), (150.00, 150.00, 1, 1, 4), (250.00, 250.00, 1, 2, 5), (350.00, 350.00, 1, 1, 6)" via JDBC [ERRO: inserção ou atualização em tabela "itemdopedido" viola restrição de chave estrangeira "fk180whp2jnoyrnk6b6k7dloc7d"
+  Detalhe: Chave (pedido_id)=(1) não está presente na tabela "pedido".]: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO itemdopedido(precototal, precounitario, quantidade, mouse_id, pedido_id) VALUES (299.99, 299.99, 1, 1, 1), (199.99, 199.99, 1, 2, 2), (150.00, 150.00, 1, 1, 4), (250.00, 250.00, 1, 2, 5), (350.00, 350.00, 1, 1, 6)" via JDBC [ERRO: inserção ou atualização em tabela "itemdopedido" viola restrição de chave estrangeira "fk180whp2jnoyrnk6b6k7dloc7d"
+  Detalhe: Chave (pedido_id)=(1) não está presente na tabela "pedido".]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233)
+	at org.hibernate.tool.schema.internal.Helper.applyScript(Helper.java:255)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportFiles(SchemaCreatorImpl.java:694)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:597)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:186)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:144)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:120)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:250)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at io.quarkus.hibernate.orm.runtime.observers.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:21)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
+	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:87)
+	at io.quarkus.hibernate.orm.runtime.FastBootHibernatePersistenceProvider.createEntityManagerFactory(FastBootHibernatePersistenceProvider.java:72)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:80)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$LazyPersistenceUnit.get(JPAConfig.java:163)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$1.run(JPAConfig.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERRO: inserção ou atualização em tabela "itemdopedido" viola restrição de chave estrangeira "fk180whp2jnoyrnk6b6k7dloc7d"
+  Detalhe: Chave (pedido_id)=(1) não está presente na tabela "pedido".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:312)
+	at io.agroal.pool.wrapper.StatementWrapper.execute(StatementWrapper.java:220)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 21 more
+
+09-11-2025 18:47:41 WARN  [or.hi.to.sc.in.ExceptionHandlerLoggedImpl] (JPA Startup Thread) GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO pagamento(valor, data, pedido_id, formapagamento) VALUES (299.99, '2025-06-04', 1, 'CARTAO_CREDITO'), (199.99, '2025-06-04', 2, 'PIX')" via JDBC [ERRO: inserção ou atualização em tabela "pagamento" viola restrição de chave estrangeira "fkhue45qh96urmvfa1vnhgeuqau"
+  Detalhe: Chave (pedido_id)=(1) não está presente na tabela "pedido".]: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO pagamento(valor, data, pedido_id, formapagamento) VALUES (299.99, '2025-06-04', 1, 'CARTAO_CREDITO'), (199.99, '2025-06-04', 2, 'PIX')" via JDBC [ERRO: inserção ou atualização em tabela "pagamento" viola restrição de chave estrangeira "fkhue45qh96urmvfa1vnhgeuqau"
+  Detalhe: Chave (pedido_id)=(1) não está presente na tabela "pedido".]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233)
+	at org.hibernate.tool.schema.internal.Helper.applyScript(Helper.java:255)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportFiles(SchemaCreatorImpl.java:694)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:597)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:186)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:144)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:120)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:250)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at io.quarkus.hibernate.orm.runtime.observers.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:21)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
+	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:87)
+	at io.quarkus.hibernate.orm.runtime.FastBootHibernatePersistenceProvider.createEntityManagerFactory(FastBootHibernatePersistenceProvider.java:72)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:80)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$LazyPersistenceUnit.get(JPAConfig.java:163)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$1.run(JPAConfig.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERRO: inserção ou atualização em tabela "pagamento" viola restrição de chave estrangeira "fkhue45qh96urmvfa1vnhgeuqau"
+  Detalhe: Chave (pedido_id)=(1) não está presente na tabela "pedido".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:312)
+	at io.agroal.pool.wrapper.StatementWrapper.execute(StatementWrapper.java:220)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 21 more
+
+09-11-2025 18:47:42 INFO  [io.quarkus] (Quarkus Main Thread) mouses2025 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.21.3) started in 4.480s. Listening on: http://localhost:8080
+09-11-2025 18:47:42 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+09-11-2025 18:47:42 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-validator, jdbc-postgresql, mailer, narayana-jta, qute, rest, rest-jackson, security, smallrye-context-propagation, smallrye-jwt, smallrye-openapi, swagger-ui, vertx]

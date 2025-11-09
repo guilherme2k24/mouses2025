@@ -1,0 +1,6 @@
+09-11-2025 18:31:20 INFO  [br.un.tp.re.MouseResource] (executor-thread-9) Total de mouses listados: 13
+09-11-2025 18:31:30 INFO  [br.un.tp.re.PedidoResource] (executor-thread-9) Listando todos os pedidos (Adm): 1 encontrados
+09-11-2025 18:31:30 INFO  [br.un.tp.re.PagamentoResource] (executor-thread-9) Total de pagamentos listados: 2
+09-11-2025 18:31:39 INFO  [br.un.tp.re.PagamentoResource] (executor-thread-9) Pagamento cadastrado com sucesso: 3
+09-11-2025 18:31:40 INFO  [br.un.tp.re.PagamentoResource] (executor-thread-9) Total de pagamentos listados: 3
+09-11-2025 18:31:51 INFO  [br.un.tp.re.PagamentoResource] (executor-thread-9) Total de pagamentos listados: 3

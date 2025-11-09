@@ -1,0 +1,11 @@
+08-11-2025 23:24:10 WARN  [io.qu.config] (Quarkus Main Thread) Unrecognized configuration key "quarkus.mailer.auth" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
+08-11-2025 23:24:11 INFO  [io.quarkus] (Quarkus Main Thread) mouses2025 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.21.3) started in 1.476s. Listening on: http://localhost:8080
+08-11-2025 23:24:11 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+08-11-2025 23:24:11 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-validator, jdbc-postgresql, mailer, narayana-jta, qute, rest, rest-jackson, security, smallrye-context-propagation, smallrye-jwt, smallrye-openapi, swagger-ui, vertx]
+08-11-2025 23:24:11 INFO  [io.qu.de.de.RuntimeUpdatesProcessor] (vert.x-worker-thread-3) Live reload total time: 1.643s 
+08-11-2025 23:24:11 INFO  [br.un.tp.re.UsuarioResource] (executor-thread-1) Buscando perfil do usuário logado: null
+08-11-2025 23:24:11 WARN  [br.un.tp.re.UsuarioResource] (executor-thread-1) Usuário não encontrado: null
+08-11-2025 23:24:22 INFO  [br.un.tp.re.AuthResource] (executor-thread-1) Tentativa de login para usuário: leandra
+08-11-2025 23:24:22 INFO  [br.un.tp.re.AuthResource] (executor-thread-1) Login bem-sucedido para usuário: leandra
+08-11-2025 23:24:33 INFO  [br.un.tp.re.UsuarioResource] (executor-thread-1) Buscando perfil do usuário logado: null
+08-11-2025 23:24:33 WARN  [br.un.tp.re.UsuarioResource] (executor-thread-1) Usuário não encontrado: null

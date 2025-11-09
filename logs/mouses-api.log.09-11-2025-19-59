@@ -1,0 +1,4 @@
+09-11-2025 19:59:15 INFO  [br.un.tp.re.MarcaResource] (executor-thread-9) Solicitação para salvar nova marca: razeeeer
+09-11-2025 19:59:15 INFO  [br.un.tp.re.MarcaResource] (executor-thread-9) Marca criada com ID: 12
+09-11-2025 19:59:18 INFO  [br.un.tp.re.MouseResource] (executor-thread-9) Total de mouses listados: 12
+09-11-2025 19:59:24 INFO  [br.un.tp.re.MouseResource] (executor-thread-9) Total de mouses listados: 12
