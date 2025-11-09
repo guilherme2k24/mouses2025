@@ -1,4 +1,0 @@
-09-11-2025 20:08:29 INFO  [br.un.tp.re.MouseResource] (executor-thread-9) Total de mouses listados: 12
-09-11-2025 20:08:48 INFO  [br.un.tp.re.MarcaResource] (executor-thread-9) Solicitação para salvar nova marca: rlox
-09-11-2025 20:08:48 INFO  [br.un.tp.re.MarcaResource] (executor-thread-9) Marca criada com ID: 14
-09-11-2025 20:08:50 INFO  [br.un.tp.re.MouseResource] (executor-thread-12) Total de mouses listados: 12

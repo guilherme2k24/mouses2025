@@ -1,4 +1,0 @@
-09-11-2025 00:23:22 INFO  [br.un.tp.re.PedidoResource] (executor-thread-4) Listando todos os pedidos (Adm): 2 encontrados
-09-11-2025 00:23:38 INFO  [br.un.tp.re.PedidoResource] (executor-thread-4) Pedido criado com sucesso: 9 com 1 itens, valor total: R$ 599,99
-09-11-2025 00:23:38 INFO  [br.un.tp.re.PedidoResource] (executor-thread-4) Listando todos os pedidos (Adm): 3 encontrados
-09-11-2025 00:23:54 INFO  [br.un.tp.re.PedidoResource] (executor-thread-4) Listando todos os pedidos (Adm): 3 encontrados

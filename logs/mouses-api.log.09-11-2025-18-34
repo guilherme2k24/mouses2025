@@ -1,6 +1,0 @@
-09-11-2025 18:34:07 ERROR [br.un.tp.re.PedidoResource] (executor-thread-11) Erro ao atualizar pedido 9: Estoque não encontrado.
-09-11-2025 18:34:09 ERROR [br.un.tp.re.PedidoResource] (executor-thread-11) Erro ao atualizar pedido 9: Estoque não encontrado.
-09-11-2025 18:34:23 ERROR [br.un.tp.re.PedidoResource] (executor-thread-11) Erro ao atualizar pedido 9: Estoque não encontrado.
-09-11-2025 18:34:41 ERROR [br.un.tp.re.PedidoResource] (executor-thread-11) Erro ao criar pedido: Estoque não encontrado.
-09-11-2025 18:34:47 ERROR [br.un.tp.re.PedidoResource] (executor-thread-11) Erro ao criar pedido: Estoque não encontrado.
-09-11-2025 18:34:59 ERROR [br.un.tp.re.PedidoResource] (executor-thread-11) Erro ao criar pedido: Estoque não encontrado.

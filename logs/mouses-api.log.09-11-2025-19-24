@@ -1,3 +1,0 @@
-09-11-2025 19:24:05 INFO  [br.un.tp.re.MouseResource] (executor-thread-4) Total de mouses listados: 12
-09-11-2025 19:24:15 INFO  [br.un.tp.re.EstoqueResource] (executor-thread-4) Solicitação para salvar novo estoque: br.unitins.tp1.dto.EstoqueRequestDTO@25ad474c
-09-11-2025 19:24:15 INFO  [br.un.tp.re.EstoqueResource] (executor-thread-4) Estoque criado com ID: 5

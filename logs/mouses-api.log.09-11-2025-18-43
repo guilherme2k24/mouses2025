@@ -1,8 +1,0 @@
-09-11-2025 18:43:20 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Pedido criado com sucesso: 12 com 1 itens, valor total: R$ 4319,98
-09-11-2025 18:43:20 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Listando todos os pedidos (Adm): 4 encontrados
-09-11-2025 18:43:26 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Pedido com id 12 deletado com sucesso
-09-11-2025 18:43:26 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Listando todos os pedidos (Adm): 3 encontrados
-09-11-2025 18:43:46 ERROR [br.un.tp.re.PedidoResource] (executor-thread-11) Erro ao criar pedido: Estoque não encontrado.
-09-11-2025 18:43:54 ERROR [br.un.tp.re.PedidoResource] (executor-thread-11) Erro ao criar pedido: Estoque não encontrado.
-09-11-2025 18:43:58 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Pedido criado com sucesso: 13 com 1 itens, valor total: R$ 6479,97
-09-11-2025 18:43:58 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Listando todos os pedidos (Adm): 4 encontrados

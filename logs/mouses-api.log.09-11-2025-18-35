@@ -1,9 +1,0 @@
-09-11-2025 18:35:08 ERROR [br.un.tp.re.PedidoResource] (executor-thread-11) Erro ao criar pedido: Estoque não encontrado.
-09-11-2025 18:35:13 ERROR [br.un.tp.re.PedidoResource] (executor-thread-11) Erro ao criar pedido: Estoque não encontrado.
-09-11-2025 18:35:18 ERROR [br.un.tp.re.PedidoResource] (executor-thread-11) Erro ao criar pedido: Estoque não encontrado.
-09-11-2025 18:35:20 ERROR [br.un.tp.re.PedidoResource] (executor-thread-11) Erro ao criar pedido: Estoque não encontrado.
-09-11-2025 18:35:23 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Listando todos os pedidos (Adm): 3 encontrados
-09-11-2025 18:35:30 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Pedido com id 9 deletado com sucesso
-09-11-2025 18:35:30 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Listando todos os pedidos (Adm): 2 encontrados
-09-11-2025 18:35:34 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Pedido com id 8 deletado com sucesso
-09-11-2025 18:35:34 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Listando todos os pedidos (Adm): 1 encontrados

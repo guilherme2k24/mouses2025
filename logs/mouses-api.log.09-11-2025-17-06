@@ -1,6 +1,0 @@
-09-11-2025 17:06:06 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-3) Solicitação para salvar nova categoria: Gamer
-09-11-2025 17:06:07 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-3) Categoria criada com ID: 5
-09-11-2025 17:06:17 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-3) Solicitação para deletar categoria ID: 5
-09-11-2025 17:06:17 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-3) Categoria ID 5 deletada com sucesso.
-09-11-2025 17:06:29 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-3) Solicitação para atualizar categoria ID 1 com novos dados.
-09-11-2025 17:06:29 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-3) Categoria ID 1 atualizada com sucesso.

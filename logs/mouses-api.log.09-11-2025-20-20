@@ -1,3 +1,0 @@
-09-11-2025 20:20:23 INFO  [br.un.tp.re.MouseResource] (executor-thread-2) Total de mouses listados: 12
-09-11-2025 20:20:34 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-2) Solicitação para salvar nova categoria: aaaadad
-09-11-2025 20:20:34 INFO  [br.un.tp.re.CategoriaResource] (executor-thread-2) Categoria criada com ID: 5

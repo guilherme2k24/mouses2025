@@ -1,6 +1,0 @@
-09-11-2025 20:18:05 INFO  [br.un.tp.re.MouseResource] (executor-thread-3) Total de mouses listados: 12
-09-11-2025 20:18:28 INFO  [br.un.tp.re.MarcaResource] (executor-thread-3) Solicitação para salvar nova marca: HyperXxX
-09-11-2025 20:18:28 INFO  [br.un.tp.re.MarcaResource] (executor-thread-3) Marca criada com ID: 10
-09-11-2025 20:18:30 INFO  [br.un.tp.re.MouseResource] (executor-thread-3) Total de mouses listados: 12
-09-11-2025 20:18:51 INFO  [br.un.tp.re.MouseResource] (executor-thread-3) Total de mouses listados: 12
-09-11-2025 20:18:59 INFO  [br.un.tp.re.MarcaResource] (executor-thread-9) Solicitação para deletar marca ID 10

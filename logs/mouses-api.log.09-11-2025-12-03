@@ -1,5 +1,0 @@
-09-11-2025 12:03:27 INFO  [br.un.tp.re.MouseResource] (executor-thread-10) Total de mouses listados: 13
-09-11-2025 12:03:30 INFO  [br.un.tp.re.MouseResource] (executor-thread-10) Total de mouses listados: 13
-09-11-2025 12:03:31 INFO  [br.un.tp.re.MouseResource] (executor-thread-10) Total de mouses listados: 13
-09-11-2025 12:03:50 INFO  [br.un.tp.re.AuthResource] (executor-thread-10) Tentativa de login para usuário: leandra
-09-11-2025 12:03:50 INFO  [br.un.tp.re.AuthResource] (executor-thread-10) Login bem-sucedido para usuário: leandra

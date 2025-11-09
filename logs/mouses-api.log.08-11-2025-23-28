@@ -1,2 +1,0 @@
-08-11-2025 23:28:29 INFO  [br.un.tp.re.UsuarioResource] (executor-thread-1) Buscando perfil do usuário logado: null
-08-11-2025 23:28:29 WARN  [br.un.tp.re.UsuarioResource] (executor-thread-1) Usuário não encontrado: null

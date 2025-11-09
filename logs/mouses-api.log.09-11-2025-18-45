@@ -1,5 +1,0 @@
-09-11-2025 18:45:23 ERROR [br.un.tp.re.PedidoResource] (executor-thread-11) Erro ao criar pedido: Estoque não encontrado.
-09-11-2025 18:45:26 ERROR [br.un.tp.re.PedidoResource] (executor-thread-11) Erro ao criar pedido: Estoque não encontrado.
-09-11-2025 18:45:30 ERROR [br.un.tp.re.PedidoResource] (executor-thread-11) Erro ao criar pedido: Estoque não encontrado.
-09-11-2025 18:45:36 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Pedido criado com sucesso: 14 com 1 itens, valor total: R$ 599,99
-09-11-2025 18:45:36 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Listando todos os pedidos (Adm): 2 encontrados

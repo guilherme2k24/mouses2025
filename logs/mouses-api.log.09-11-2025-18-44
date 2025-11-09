@@ -1,9 +1,0 @@
-09-11-2025 18:44:19 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Pedido com id 13 deletado com sucesso
-09-11-2025 18:44:19 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Listando todos os pedidos (Adm): 3 encontrados
-09-11-2025 18:44:23 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Listando todos os pedidos (Adm): 3 encontrados
-09-11-2025 18:44:29 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Pedido com id 11 deletado com sucesso
-09-11-2025 18:44:29 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Listando todos os pedidos (Adm): 2 encontrados
-09-11-2025 18:44:31 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Pedido com id 10 deletado com sucesso
-09-11-2025 18:44:31 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Listando todos os pedidos (Adm): 1 encontrados
-09-11-2025 18:44:34 INFO  [br.un.tp.re.MouseResource] (executor-thread-11) Total de mouses listados: 13
-09-11-2025 18:44:41 INFO  [br.un.tp.re.PedidoResource] (executor-thread-11) Listando todos os pedidos (Adm): 1 encontrados
