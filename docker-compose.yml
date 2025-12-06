@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  minio:
+    image: minio/minio
+    container_name: minio-ecommerce
+    ports:
+      - "9000:9000"   # API Port
+      - "9001:9001"   # Console Web UI
+    environment:
+      MINIO_ROOT_USER: admin123
+      MINIO_ROOT_PASSWORD: password123456
+    volumes:
+      - minio_data:/data
+    command: server --console-address ":9001" /data
+    networks:
+      - ecommerce-network
+
+volumes:
+  minio_data:
+
+networks:
+  ecommerce-network:
+    driver: bridge
